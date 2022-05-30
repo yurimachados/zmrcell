@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/custom.css">
+    <link rel="stylesheet" href="./style/custom-form.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+
+                <div class="col col-md-4">
+
+                    <h1>ZMR Cell</h1>
+
+                </div>
+
+                <div class="col">
+                    <p>- redes sociais -</p>
+                </div>
+
+                <div class="col col-md-4">
+                    
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link btn" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link btn" href="index.html#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link btn" href="index.html#produtos">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link btn active" href="index.html#contato">Contato</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </header> 
+    
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>Cadastro</h2>
+                    <p>Faça seu cadastro para receber nossos produtos em sua casa</p>
+                </div>
+            </div>
+            
+            <form class="form">
+
+                <div class="row">
+                    <div class="col">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" class="form-control" name="nome" placeholder="Digite seu Nome.">
+                    </div>
+                    <div class="col">
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" class="form-control" name="email" placeholder="Digite seu E-mail.">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <label for="endereco">Endereço completo</label>
+                        <input type="text" id="endereco" class="form-control" placeholder="Endereço completo">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <label for="cidade">Cidade</label>
+                        <input type="text" name="cidade" id="cidade" class="form-control">
+                    </div>
+
+                    <div class="col">
+                        <label for="estado">Estado</label>
+                        <select name="estado" class="form-control" id="estado"">
+                            <option value="">Selecione um estado</option>
+                            <option value="RS">RS</option>
+                            <option value="SC">SC</option>
+                            <option value="PR">PR</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label for="cep">CEP</label>
+                        <input type="text" name="cep" id="cep" class="form-control">
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col">
+                        <label for="info">Informações</label>
+                        <textarea class="form-control" id="info" name="info" rows="5" placeholder="Deixe uma Mensagem."></textarea>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="formcheck">
+                            <input type="checkbox" name="promocionais" id="promocionais">
+                            <label for="promocionais">Aceito mensagens promocionais</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div type="submit" class="btn btn-lg btn-success">Realizar cadastro</div>
+            </form>
+
+            <br><p><a href="cadastro" data-bs-toggle="modal" data-bs-target="#modal-1">Cadastre-se</a> para receber novidades</p>    
+            
+        </div> <!-- end .container-->
+    </section>
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Inscrever-me na lista</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Preencha os campos para receber novidades</h6>
+                    
+                    <form action="" class="form-inline">
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-sm mb-2" name="nome" placeholder="Nome">
+                            <input type="text" class="form-control form-control-sm  mb-2" name="e-mail" placeholder="E-mail" required>
+                            <button type="submit" class="btn btn-success">Receba!</button>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    
+                    <button type="button" class="btn btn-secondary mb-2" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Todos os direitos reservados.&reg; ZMRCell LTDA  &copy;.</p>
+    </footer>
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

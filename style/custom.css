@@ -1,0 +1,36 @@
+header{
+    height: 60px;
+    border-bottom: 1px solid rgb(17, 86, 214);
+}
+
+
+
+header p {
+    text-align: center;
+}
+a {
+    color: rgba(0, 0, 255, 0.966);
+}
+section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+input, textarea{
+    margin-bottom: 1rem;
+}
+footer{
+    border-top: 1px solid blue;
+}
+footer p {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.card{
+    width: 32%;
+    float: left;
+    margin: 3px;
+}
+.nav-item {
+    margin: 5px;
+}

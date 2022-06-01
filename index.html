@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./style/custom.css">
-    <title>Bootstrap</title>
+    <title>ZMRCell - Assistência técnica</title>
 </head>
 <body>
     
@@ -14,19 +14,26 @@
         <div class="container">
             <div class="row">
                 
-                <div class="col">
+                <div class="col col-lg-4 col-sm-12">
                     
                     <h1>ZMR Cell</h1>
                     
                 </div>
+
+                <div class="col " style="text-align:center;">
+                    <i class="fa-brands fa-instagram fa-xl"></i>
+                    <i class="fa-brands fa-whatsapp fa-xl"></i>
+                    <i class="fa-brands fa-facebook-square fa-xl"></i>
+                </div>
+
                 
-                <div class="col">
+                <div class="col col-lg-6 col-sm-12">
                     
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item"><a class="nav-link btn  active" href="">Home</a></li>
-                        <li class="nav-item"><a class="nav-link btn " href="#sobre">Sobre</a></li>
-                        <li class="nav-item"><a class="nav-link btn " href="#produtos">Produtos</a></li>
-                        <li class="nav-item"><a class="nav-link btn " href="./cadastro.html">Contato</a></li>
+                    <ul id="menu" class="nav justify-content-end float-end">
+                        <li class="nav-item"><a class="nav-link btn active" href="index.html"><i class="fa-solid fa-house"></i>&nbsp Home</a></li>
+                        <li class="nav-item"><a class="nav-link btn" href="index.html#sobre"><i class="fa-solid fa-book"></i>&nbspSobre</a></li>
+                        <li class="nav-item"><a class="nav-link btn" href="index.html#produtos"><i class="fa-solid fa-store"></i>&nbspProdutos</a></li>
+                        <li class="nav-item"><a class="nav-link btn" href="index.html#contato"><i class="fa-solid fa-paper-plane"></i>&nbspContato</a></li>
                     </ul>
                     
                 </div>
@@ -39,7 +46,7 @@
             <div class="row">
                 <div class="col-md-7 col-sm-12">
                     <h1>Sobre nós</h1>
-                    <p>Somos referencia quando se trata de <strong>qualidade </strong> e <strong>agilidade</strong>, podemos buscar seu aparelho com defeito e entregar novo em até duas horas!<br><br> Também temos iPhones novos e usados em estado de novo. Faça uma cotação já!
+                    <p>Somos referencia quando se trata de <strong>qualidade </strong> e <strong>agilidade</strong>, podemos buscar seu aparelho com defeito e entregar novo em até <strong>2 horas!</strong><br><br> Também temos iPhones novos e usados em estado de novo. Faça uma cotação já!
                         
                     </p>
                     <a class="btn btn-lg btn-success">WhatsApp</a>
@@ -77,7 +84,8 @@
         
         <div class="container"><h2>Produtos</h2>
             <div class="row">
-                <div class="col">                  
+
+                <div class="col col-lg-4 col-md-6 col-sm-12">                  
                     <div class="card">
                         <img src="./images/iphone11.png" alt="" class="img-fluid">
                         <div class="card-body">
@@ -86,8 +94,9 @@
                             <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver Produto</a>
                         </div>
                     </div>
-                    
-                    
+                </div>     
+                
+                <div class="col col-lg-4 col-md-6 col-sm-12">
                     <div class="card">
                         <img src="./images/iphone11black.png" alt="" class="img-fluid">
                         <div class="card-body">
@@ -96,8 +105,9 @@
                             <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">Ver Produto</a>
                         </div>
                     </div>
-                    
-                    
+                </div>
+
+                <div class="col col-lg-4 col-md-6 col-sm-12">    
                     <div class="card">
                         <img src="./images/iphone11purple.png" alt="" class="img-fluid">
                         <div class="card-body">
@@ -268,10 +278,15 @@
     </div>
     
     <footer>
-        <p>Todos os direitos reservados.&reg; ZMRCell LTDA  &copy;.</p>
+        <div class="row">
+            <div class="col"><p>&reg; ZMRCell LTDA  &copy;. Todos os direitos reservados. Zmrcell é uma marca registrada (CNPJ aqui é opcional) V 0.1</p></div>
+            <div class="col"><p>Made with ♥ by <a href="https://www.linkedin.com/in/yuri-machado-silveira-16a5aa186/" target="_blank">Yuri Machado</a></p></div>
+        </div>
+        
     </footer>
     
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/f2f512608f.js" crossorigin="anonymous"></script>
 </body>
 </html>
 

@@ -2,10 +2,10 @@ header{
     height: 60px;
     border-bottom: 1px solid rgb(17, 86, 214);
 }
-
-
-
-header p {
+.social {
+    margin-top: 5px;
+}
+header p{
     text-align: center;
 }
 a {
@@ -25,9 +25,10 @@ footer p {
     margin-top: 2rem;
     text-align: center;
 }
-
+.container{
+    margin-top: 1rem;
+}
 .card{
-    width: 32%;
     float: left;
     margin: 3px;
 }

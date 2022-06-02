@@ -1,11 +1,24 @@
 /*Custom Id's*/
 
+#contato{
+    margin-bottom: 3rem;
+}
+#form-contact{
+
+}
+#address {
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+}
 
 
 /*Custom Classes*/
 
 .social-a{
     color: white;
+}
+.form{
+    display:block;
 }
 
 

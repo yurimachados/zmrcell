@@ -3,9 +3,6 @@
 #contato{
     margin-bottom: 3rem;
 }
-#form-contact{
-
-}
 #address {
     margin-top: 1rem;
     margin-bottom: 6rem;
@@ -42,6 +39,9 @@ section {
 }
 input, textarea{
     margin-bottom: 1rem;
+}
+form > h3{
+    margin-top: 1rem;
 }
 footer{
     border-top: 1px solid blue;

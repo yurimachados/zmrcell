@@ -1,8 +1,13 @@
+/*Custom Id's*/
+
+
+
 /*Custom Classes*/
 
 .social-a{
     color: white;
 }
+
 
 /*Custom Elements*/
 header{
@@ -29,13 +34,14 @@ footer{
     border-top: 1px solid blue;
 }
 footer p {
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     text-align: center;
 }
 footer .btn-group{
     margin-top: 1rem;
     margin-bottom: 1rem;
+    margin-left: 45%;
 }
 .container{
     margin-top: 1rem;
